@@ -56,7 +56,7 @@ $headingTextShadow: none;
 $heading1TextShadow: $headingTextShadow;
 
 // Links and actions
-$linkColor: #13DAEC;
+$linkColor: $mediumLightBlue;
 $linkColorHover: lighten( $linkColor, 20% );
 
 // Text selection
