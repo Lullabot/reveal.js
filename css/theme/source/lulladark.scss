@@ -38,7 +38,7 @@ $orange: #fc7f07;
 // overridden by the super-theme
 
 // Background of the presentation
-$backgroundColor: #2b2b2b;
+$backgroundColor: $darkestGray;
 
 // Primary/body text
 $mainFont: 'Andika Basic', sans-serif;
@@ -68,13 +68,6 @@ $selectionColor: #fff;
 @mixin bodyBackground() {
   background: $backgroundColor;
 }
-
-// Background generator
-@mixin bodyBackground() {
-	@include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
-}
-
-
 
 // Theme template ------------------------------
 @import "../template/theme";
