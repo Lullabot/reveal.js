@@ -146,6 +146,9 @@ div.slides:first-child h1 {
   color: #fc7f07;
   margin-bottom: 100px; }
 
+div.slides h1 {
+  font-size: 2.75em; }
+
 div.slides h1, div.slides h2, div.slides h3, div.slides h4, div.slides h5, div.slides h6 {
   color: #f0f0f0; }
   div.slides h1.highlight, div.slides h2.highlight, div.slides h3.highlight, div.slides h4.highlight, div.slides h5.highlight, div.slides h6.highlight {
