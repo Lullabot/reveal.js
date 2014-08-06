@@ -73,12 +73,21 @@ $selectionColor: #fff;
 @import "../template/theme";
 // ---------------------------------------------
 
+.reveal {
+	.slides {
+		text-align: left;
+	}
+}
+
 // Highlighted text and headings.
 $highlight: $orange;
 $alert: $red;
 
-div.slides:first-child h1 {
-	color: $highlight;
+div.slides:first-child {
+	h1 {
+		color: $highlight;
+		margin-bottom: 100px;
+	}
 }
 
 div.slides {

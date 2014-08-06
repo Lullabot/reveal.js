@@ -139,8 +139,12 @@ body {
 .reveal .slide-number {
   color: #13daec; }
 
+.reveal .slides {
+  text-align: left; }
+
 div.slides:first-child h1 {
-  color: #fc7f07; }
+  color: #fc7f07;
+  margin-bottom: 100px; }
 
 div.slides h1, div.slides h2, div.slides h3, div.slides h4, div.slides h5, div.slides h6 {
   color: #f0f0f0; }
