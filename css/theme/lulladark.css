@@ -152,3 +152,9 @@ div.slides h1, div.slides h2, div.slides h3, div.slides h4, div.slides h5, div.s
     color: #fc7f07; }
   div.slides h1.alert, div.slides h2.alert, div.slides h3.alert, div.slides h4.alert, div.slides h5.alert, div.slides h6.alert {
     color: #d2392a; }
+
+.slides footer {
+  position: fixed;
+  bottom: 50%;
+  left: -50%;
+  font-size: 0.7em; }
