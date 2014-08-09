@@ -108,6 +108,28 @@ div.slides {
 	}
 }
 
+.slides .full-image {
+	h1 {
+		background-color: $darkGray;
+		text-align: center;
+		margin-top: 550px;
+		font-size: 1.5em;
+		padding: 0.3em;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 10px 10px black;
+	}
+}
+
+.slides section.box-image {
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .slides footer {
 	position: fixed;
 	bottom: 50%;

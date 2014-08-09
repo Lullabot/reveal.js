@@ -156,6 +156,22 @@ div.slides h1, div.slides h2, div.slides h3, div.slides h4, div.slides h5, div.s
   div.slides h1.alert, div.slides h2.alert, div.slides h3.alert, div.slides h4.alert, div.slides h5.alert, div.slides h6.alert {
     color: #d2392a; }
 
+.slides .full-image h1 {
+  background-color: #414141;
+  text-align: center;
+  margin-top: 550px;
+  font-size: 1.5em;
+  padding: 0.3em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px black; }
+
+.slides section.box-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .slides footer {
   position: fixed;
   bottom: 50%;
