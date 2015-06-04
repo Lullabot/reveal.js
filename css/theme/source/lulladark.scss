@@ -69,6 +69,12 @@ $selectionColor: #fff;
   background: $backgroundColor;
 }
 
+section.has-light-background {
+  &, h1, h2, h3, h4, h5, h6 {
+    color: $darkestGray;
+  }
+}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
