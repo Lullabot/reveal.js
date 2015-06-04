@@ -114,7 +114,7 @@ module.exports = function(grunt) {
 				livereload: true
 			},
 			js: {
-				files: [ 'Gruntfile.js', 'js/reveal.js' ],
+				files: [ 'Gruntfile.js', 'js/reveal.js', 'plugin/title-footer/title-footer.js' ],
 				tasks: 'js'
 			},
 			theme: {
@@ -126,7 +126,7 @@ module.exports = function(grunt) {
 				tasks: 'css-core'
 			},
 			html: {
-				files: [ 'index.html']
+				files: [ 'index.html', 'plugin/title-footer/title-footer.css' ]
 			}
 		}
 
