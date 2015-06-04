@@ -106,12 +106,9 @@ title_footer.initialize=function(title,background)
 	title_footer.setAttribute('id','title-footer');
 	title_footer.setAttribute('style','background:'+this.background);
 	var title_footer_p=document.createElement('p');
+  title_footer_p.innerHTML = this.title;
 	title_footer.appendChild(title_footer_p);
-	var a_element=document.createElement('a');
-	a_element.setAttribute('href','#/0');
-	a_element.appendChild(document.createTextNode(this.title));
-	title_footer_p.appendChild(a_element);
-	var div_class_reveal=document.querySelectorAll('.reveal')[0];
+	var div_class_reveal=document.querySelectorAll('.slides')[0];
 	div_class_reveal.appendChild(title_footer);
 };
 
