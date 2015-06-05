@@ -400,7 +400,7 @@ Reveal.addEventListener( 'customevent', function() {
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-                    { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize('<a href="https://twitter.com/deviantintegral">@deviantintegral</a>', 'transparent'); }}
+                    { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize('', 'transparent'); }}
 				]
 			});
 
