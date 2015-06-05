@@ -13,12 +13,7 @@
 
 
 // Include theme-specific fonts
-@font-face {
-	font-family: 'Andika Basic';
-	src: url('../../lib/font/Andika-Basic/AndBasR.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 
 // Lullabot colours.
 // https://dailyreport.lullabot.com/node/4859
@@ -41,13 +36,13 @@ $orange: #fc7f07;
 $backgroundColor: $darkestGray;
 
 // Primary/body text
-$mainFont: 'Andika Basic', sans-serif;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $mainFontSize: 36px;
 $mainColor: $reallyLightBlue;
 
 // Headings
 $headingMargin: 0 0 20px 0;
-$headingFont: 'Andika Basic', Impact, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingColor: $lightGray;
 $headingLineHeight: 1em;
 $headingLetterSpacing: 0.02em;
