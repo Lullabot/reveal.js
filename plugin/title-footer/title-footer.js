@@ -103,12 +103,18 @@ title_footer.initialize=function(title,background)
 	// Create the Title-Footer footer
 
 	var title_footer=document.createElement('footer');
-	title_footer.setAttribute('id','title-footer');
+	title_footer.setAttribute('class','title-footer');
 	title_footer.setAttribute('style','background:'+this.background);
 	var title_footer_p=document.createElement('p');
   title_footer_p.innerHTML = this.title;
 	title_footer.appendChild(title_footer_p);
 	var div_class_reveal=document.querySelectorAll('.slides')[0];
-	div_class_reveal.appendChild(title_footer);
+	//div_class_reveal.appendChild(title_footer);
+  var sections = document.querySelectorAll('.slides section');
+  for (var i = 0; i < sections.length; i++) {
+    if (sections[i].querySelectorAll('section').length == 0) {
+      sections[i].appendChild(title_footer.cloneNode(true));
+    }
+  }
 };
 
