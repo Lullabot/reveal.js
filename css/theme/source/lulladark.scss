@@ -78,6 +78,7 @@ section.has-light-background {
 $highlight: $orange;
 $alert: $red;
 
+// Style the very first title slide.
 div.slides:first-child {
 	h1 {
 		color: $highlight;
@@ -89,6 +90,8 @@ div.slides h1 {
 	font-size: 2.75em;
 }
 
+// We support a default neutral colour. Add highlight and alert classes to
+// jolt your audience into paying attention.
 div.slides {
 	h1, h2, h3, h4, h5, h6 {
 		color: $headingColor;
@@ -117,6 +120,7 @@ div.slides {
 	}
 }
 
+// Use this for small photos that can't be blown up to the full background.
 .slides section.box-image {
 	img {
 		display: block;
