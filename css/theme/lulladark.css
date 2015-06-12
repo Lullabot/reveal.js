@@ -284,7 +284,7 @@ div.slides h1, div.slides h2, div.slides h3, div.slides h4, div.slides h5, div.s
   div.slides h1.alert, div.slides h2.alert, div.slides h3.alert, div.slides h4.alert, div.slides h5.alert, div.slides h6.alert {
     color: #d2392a; }
 
-.slides .full-image h1 {
+.slides .full-image h2 {
   background-color: #414141;
   text-align: center;
   margin-top: 550px;

@@ -106,8 +106,9 @@ div.slides {
 	}
 }
 
+// Styling a photo-focused slide where the photo is the whole background.
 .slides .full-image {
-	h1 {
+	h2 {
 		background-color: $darkGray;
 		text-align: center;
 		margin-top: 550px;
